@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">	
+	<head>
+		<title>
+			Assignment 2.2 - HTML Form
+		</title>
+	</head>
+	
+	<body>
+        <form>
+			<fieldset style="width:500px;">
+			  <legend>Your Details:</legend>							
+				<label>Name: </label>
+				<input type="text" name="name"/></br>
+				
+				<label>Email: </label>
+				<input type="email" name="email"/>
+			</fieldset>
+			
+			</br>
+			
+			<fieldset style="width:500px;">
+			  </br>
+			  <legend>Your Review:</legend>							
+				<label>How did you hear about us?</label>
+				  <select name="source">
+					<option value="Google">Google</option>
+					<option value="Yahoo">Yahoo</option>
+					<option value="Friends">Friends</option>
+					<option value="social_media">Social Media</option>
+				  </select>
+				  </br></br>
+
+				<label>Would you visit again?</label>
+				</br>
+				<input type="radio" name="visit" value="Yes"/><label>Yes</label>
+				<input type="radio" name="visit" value="No"/><label>No</label>
+				<input type="radio" name="visit" value="Maybe"/><label>Maybe</label>
+         </br></br>
+			
+				<label>Comments:</label>
+				</br>
+				<textarea rows="6" cols="65">
+				</textarea>		
+				
+				<input type="checkbox" name="sign" value="yes" checked autofocus>Sign me up for email updates</input>	            
+				</br>
+			
+				<button>Submit review</button>
+
+			</fieldset>
+			
+		</form>
+		
+		<footer>
+		</footer>
+	</body>
+	
+</html>
